@@ -170,7 +170,7 @@ function play(ques,ans){
 var qa=[{question:"What is my nickname?",answer:"manya"},{question:"when is my birthday?",answer:"17 july"},{question:"where do i live?",answer:"Pune"}]
 var username = input.question(chalk.bold.whiteBright("What is your name?\n"))
 console.log(`${chalk.bold.whiteBright("Welcome")+" "+chalk.yellowBright(username.toUpperCase()) +"!"+"\n"+
-chalk.bold.green("Lets start with the quiz")
+chalk.bold.green("Lets see how well you know me!")
 }`)
 var sr = 1
 for (i of qa){
